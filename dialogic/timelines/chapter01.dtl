@@ -1,0 +1,18 @@
+join dialogic/characters/norminette center
+dialogic/characters/norminette: Hello
+leave dialogic/characters/norminette
+join characters/moulinette center
+characters/moulinette: Hii
+leave characters/moulinette
+join dialogic/characters/norminette center
+dialogic/characters/norminette: So, what do you say?
+leave dialogic/characters/norminette
+join characters/moulinette center
+- Yes, of course
+	leave characters/moulinette
+	join dialogic/characters/norminette center
+	dialogic/characters/norminette: That is great.
+- Nope, sorry. | [=""]
+	leave characters/moulinette
+	join dialogic/characters/norminette center
+	dialogic/characters/norminette: Ohh alright, then.

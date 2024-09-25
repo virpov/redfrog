@@ -1,8 +1,7 @@
-[gd_scene load_steps=57 format=3 uid="uid://db6oxximusddy"]
+[gd_scene load_steps=56 format=3 uid="uid://db6oxximusddy"]
 
 [ext_resource type="Script" path="res://scripts/player.gd" id="1_rml5l"]
 [ext_resource type="Texture2D" uid="uid://cjyfs8vd0ijbr" path="res://sprites/characters/player.png" id="2_4i82g"]
-[ext_resource type="PackedScene" uid="uid://vsumxyh2b3n5" path="res://scenes/battle.tscn" id="2_vcm5p"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_xvxqc"]
 atlas = ExtResource("2_4i82g")
@@ -414,16 +413,13 @@ animations = [{
 "speed": 5.0
 }]
 
-[sub_resource type="CircleShape2D" id="CircleShape2D_w08vd"]
-radius = 5.0
+[sub_resource type="CircleShape2D" id="CircleShape2D_eec4l"]
+radius = 7.07107
 
 [node name="Player" type="CharacterBody2D"]
 y_sort_enabled = true
 collision_layer = 3
 script = ExtResource("1_rml5l")
-
-[node name="Camera" type="Camera2D" parent="."]
-zoom = Vector2(3, 3)
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
 z_index = 1
@@ -432,12 +428,4 @@ animation = &"front_walk"
 offset = Vector2(0, -15)
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
-shape = SubResource("CircleShape2D_w08vd")
-
-[node name="Battle" parent="." instance=ExtResource("2_vcm5p")]
-visible = false
-custom_minimum_size = Vector2(1152, 648)
-offset_left = -576.0
-offset_top = -324.0
-offset_right = 576.0
-offset_bottom = 324.0
+shape = SubResource("CircleShape2D_eec4l")

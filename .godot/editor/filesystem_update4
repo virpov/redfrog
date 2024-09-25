@@ -1,0 +1,7 @@
+res://dialogic/characters/moulinette.dch
+res://dialogic/characters/norminette.dch
+res://scenes/layout.tscn
+res://scripts/npc_quest.gd
+res://scenes/player.tscn
+res://scenes/npc_quest.tscn
+res://dialogic/timelines/chapter01.dtl

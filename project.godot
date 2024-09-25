@@ -22,14 +22,15 @@ Dialogic="*res://addons/dialogic/Core/DialogicGameHandler.gd"
 [dialogic]
 
 directories/dch_directory={
-"moulinette": "res://sprites/characters/moulinette.dch",
-"norminette": "res://sprites/characters/norminette.dch"
+"characters/moulinette": "res://dialogic/characters/moulinette.dch",
+"dialogic/characters/norminette": "res://dialogic/characters/norminette.dch"
 }
 directories/dtl_directory={
-"chapter01": "res://timelines/chapter01.dtl",
-"moulinette": "res://sprites/characters/moulinette.dtl"
+"chapter01": "res://dialogic/timelines/chapter01.dtl"
 }
 variables={}
+layout/style_list=[]
+layout/default_style="Default"
 
 [editor_plugins]
 
