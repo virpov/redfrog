@@ -1,5 +1,5 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1727274736
+::res://::1727277882
 icon.svg::CompressedTexture2D::1462498103622564438::1727192694::1727273377::1::::<><>::
 student.png::CompressedTexture2D::1577083999953066874::1727188184::1727274226::1::::<><>::
 ::res://addons/::1725448190
@@ -603,24 +603,29 @@ TimelineResourceLoader.gd::GDScript::-1::1725448190::0::1::::DialogicTimelineFor
 TimelineResourceSaver.gd::GDScript::-1::1725448190::0::1::::DialogicTimelineFormatSaver<>ResourceFormatSaver<>::
 ::res://addons/dialogic/test-project/::1725448190
 ::res://dialogic/::1727274560
-::res://dialogic/characters/::1727274658
+::res://dialogic/characters/::1727277553
 mouli64.png::CompressedTexture2D::5037774798057033361::1727012742::1727274539::1::::<><>::
-moulinette.dch::Resource::-1::1727274658::0::1::::<><>::
-norminette.dch::Resource::-1::1727274520::0::1::::<><>::
+moulinette.dch::Resource::-1::1727275789::0::1::::<><>::
+norminette.dch::Resource::-1::1727275787::0::1::::<><>::
 norminette.png::CompressedTexture2D::5268581515514758173::1727274206::1727274539::1::::<><>::
+staff.dch::Resource::-1::1727277553::0::1::::<><>::
+staff_to change.png::CompressedTexture2D::7292398099185685051::1727012742::1727276074::1::::<><>::
 student.png::CompressedTexture2D::9064762014840111569::1727188184::1727274539::1::::<><>::
-::res://dialogic/timelines/::1727274628
-chapter01.dtl::Resource::-1::1727274628::0::1::::<><>::
-::res://scenes/::1727274332
-layout.tscn::PackedScene::726905435273685675::1727274332::0::1::::<><>::uid://drmyvv72evy11::::res://sprites/tilesets/outside_42/Tilemaps & Additive Env/Tilemap32x32_down_environment.png<>uid://bu65151bjclnt::::res://sprites/tilesets/newassets/pixel_cyberpunk_interior_free_1.0.1/pixel_cyberpunk_interior_free_1.0.1/pixel-cyberpunk-interior.png<>uid://hiefal6oxd1r::::res://sprites/tilesets/newassets/AxulArt´s_Basic-Top-down-interior_By_AxulArt/AxulArt´s_Basic-Top-down-interior_By_AxulArt/SUCCULENT TEXTURE PACK PNG-32.png<>uid://bsptaa3laifnc::::res://sprites/tilesets/newassets/Pixel Lands Interiors Demo/Pixel Lands Interiors Demo/interiors_demo.png<>uid://bt2jsri5kinc4::::res://sprites/tilesets/newassets/AxulArt´s_Basic-Top-down-interior_By_AxulArt/AxulArt´s_Basic-Top-down-interior_By_AxulArt/toilet.png<>uid://bgsblupbgyx0::::res://sprites/tilesets/newassets/AxulArt´s_Basic-Top-down-interior_By_AxulArt/AxulArt´s_Basic-Top-down-interior_By_AxulArt/AxulArt´s_Basic-Top-down-interior_By_AxulArt.png<>uid://cjo06vvtyb8wm::::res://sprites/tilesets/newassets/Pixel Lands Interiors Demo/Pixel Lands Interiors Demo/Interiors_free_16x16.png<>uid://dvb5jekx6ch0p::::res://sprites/tilesets/newassets/AxulArt´s_Basic-Top-down-interior_By_AxulArt/AxulArt´s_Basic-Top-down-interior_By_AxulArt/AxulArt´s_Basic-Top-down-interior_ALL_By_AxulArt.png<>uid://c718ehx2tax68::::res://sprites/tilesets/newassets/AxulArt´s_Basic-Top-down-interior_By_AxulArt/AxulArt´s_Basic-Top-down-interior_By_AxulArt/Texture/TX Plant.png<>uid://7vqcakunawm7::::res://sprites/tilesets/newassets/AxulArt´s_Basic-Top-down-interior_By_AxulArt/AxulArt´s_Basic-Top-down-interior_By_AxulArt/Texture/TX Props.png<>uid://dqruiqcy6bo8e::::res://sprites/tilesets/newassets/AxulArt´s_Basic-Top-down-interior_By_AxulArt/AxulArt´s_Basic-Top-down-interior_By_AxulArt/Texture/TX Shadow Plant.png<>uid://cujxir2rh7f4l::::res://sprites/tilesets/newassets/AxulArt´s_Basic-Top-down-interior_By_AxulArt/AxulArt´s_Basic-Top-down-interior_By_AxulArt/Texture/TX Shadow.png<>uid://bxcj326va4v3s::::res://sprites/tilesets/newassets/AxulArt´s_Basic-Top-down-interior_By_AxulArt/AxulArt´s_Basic-Top-down-interior_By_AxulArt/Texture/TX Struct.png<>uid://d0g7q6ggpyk0d::::res://sprites/tilesets/grass.png<>uid://b6dii10g5hl1s::::res://sprites/tilesets/rain effect.png<>uid://dtutyhidh2kuo::::res://sprites/tilesets/Water+.png<>uid://b8vskqdy67ra0::::res://sprites/tilesets/32x32Tileset_gardenTheme.png<>uid://3v4lxberut54::::res://sprites/tilesets/outside_42/Tilemaps & Additive Env/weed02.png<>uid://105lw5otcrbk::::res://sprites/tilesets/outside_42/Tilemaps & Additive Env/weed04.png<>uid://chjegg8ybfne0::::res://sprites/tilesets/outside_42/Tilemaps & Additive Env/weed05.png<>uid://cu3o7ph81yesy::::res://sprites/tilesets/outside_42/Vegetation/minitree32x48.png<>uid://db6oxximusddy::::res://scenes/player.tscn<>uid://wvh23yl6cu6u::::res://scenes/npc_quest.tscn
-npc_quest.tscn::PackedScene::1587981236527194082::1727274332::0::1::::<><>::res://scripts/npc_quest.gd<>uid://c7th1o28omogg::::res://sprites/characters/student.png
-player.tscn::PackedScene::7294338937219883226::1727274332::0::1::::<><>::res://scripts/player.gd<>uid://cjyfs8vd0ijbr::::res://sprites/characters/player.png
-::res://scripts/::1727274332
+::res://dialogic/timelines/::1727276198
+chapter01.dtl::Resource::-1::1727275939::0::1::::<><>::
+quest1.dtl::Resource::-1::1727276198::0::1::::<><>::
+::res://scenes/::1727277810
+layout.tscn::PackedScene::726905435273685675::1727277809::0::1::::<><>::uid://drmyvv72evy11::::res://sprites/tilesets/outside_42/Tilemaps & Additive Env/Tilemap32x32_down_environment.png<>uid://bu65151bjclnt::::res://sprites/tilesets/newassets/pixel_cyberpunk_interior_free_1.0.1/pixel_cyberpunk_interior_free_1.0.1/pixel-cyberpunk-interior.png<>uid://hiefal6oxd1r::::res://sprites/tilesets/newassets/AxulArt´s_Basic-Top-down-interior_By_AxulArt/AxulArt´s_Basic-Top-down-interior_By_AxulArt/SUCCULENT TEXTURE PACK PNG-32.png<>uid://bsptaa3laifnc::::res://sprites/tilesets/newassets/Pixel Lands Interiors Demo/Pixel Lands Interiors Demo/interiors_demo.png<>uid://bt2jsri5kinc4::::res://sprites/tilesets/newassets/AxulArt´s_Basic-Top-down-interior_By_AxulArt/AxulArt´s_Basic-Top-down-interior_By_AxulArt/toilet.png<>uid://bgsblupbgyx0::::res://sprites/tilesets/newassets/AxulArt´s_Basic-Top-down-interior_By_AxulArt/AxulArt´s_Basic-Top-down-interior_By_AxulArt/AxulArt´s_Basic-Top-down-interior_By_AxulArt.png<>uid://cjo06vvtyb8wm::::res://sprites/tilesets/newassets/Pixel Lands Interiors Demo/Pixel Lands Interiors Demo/Interiors_free_16x16.png<>uid://dvb5jekx6ch0p::::res://sprites/tilesets/newassets/AxulArt´s_Basic-Top-down-interior_By_AxulArt/AxulArt´s_Basic-Top-down-interior_By_AxulArt/AxulArt´s_Basic-Top-down-interior_ALL_By_AxulArt.png<>uid://c718ehx2tax68::::res://sprites/tilesets/newassets/AxulArt´s_Basic-Top-down-interior_By_AxulArt/AxulArt´s_Basic-Top-down-interior_By_AxulArt/Texture/TX Plant.png<>uid://7vqcakunawm7::::res://sprites/tilesets/newassets/AxulArt´s_Basic-Top-down-interior_By_AxulArt/AxulArt´s_Basic-Top-down-interior_By_AxulArt/Texture/TX Props.png<>uid://dqruiqcy6bo8e::::res://sprites/tilesets/newassets/AxulArt´s_Basic-Top-down-interior_By_AxulArt/AxulArt´s_Basic-Top-down-interior_By_AxulArt/Texture/TX Shadow Plant.png<>uid://cujxir2rh7f4l::::res://sprites/tilesets/newassets/AxulArt´s_Basic-Top-down-interior_By_AxulArt/AxulArt´s_Basic-Top-down-interior_By_AxulArt/Texture/TX Shadow.png<>uid://bxcj326va4v3s::::res://sprites/tilesets/newassets/AxulArt´s_Basic-Top-down-interior_By_AxulArt/AxulArt´s_Basic-Top-down-interior_By_AxulArt/Texture/TX Struct.png<>uid://d0g7q6ggpyk0d::::res://sprites/tilesets/grass.png<>uid://b6dii10g5hl1s::::res://sprites/tilesets/rain effect.png<>uid://dtutyhidh2kuo::::res://sprites/tilesets/Water+.png<>uid://b8vskqdy67ra0::::res://sprites/tilesets/32x32Tileset_gardenTheme.png<>uid://3v4lxberut54::::res://sprites/tilesets/outside_42/Tilemaps & Additive Env/weed02.png<>uid://105lw5otcrbk::::res://sprites/tilesets/outside_42/Tilemaps & Additive Env/weed04.png<>uid://chjegg8ybfne0::::res://sprites/tilesets/outside_42/Tilemaps & Additive Env/weed05.png<>uid://cu3o7ph81yesy::::res://sprites/tilesets/outside_42/Vegetation/minitree32x48.png<>uid://db6oxximusddy::::res://scenes/player.tscn<>uid://wvh23yl6cu6u::::res://scenes/npc_quest.tscn<>uid://dpq1a6totd2qw::::res://scenes/NPC Quest1.tscn
+NPC Quest1.tscn::PackedScene::8246705049763447786::1727277810::0::1::::<><>::res://scripts/npc_quest_1.gd<>uid://dsdl6vpjyswun::::res://sprites/characters/staff_to change.png
+npc_quest.tscn::PackedScene::1587981236527194082::1727277809::0::1::::<><>::res://scripts/npc_quest.gd<>uid://c7th1o28omogg::::res://sprites/characters/student.png
+player.tscn::PackedScene::7294338937219883226::1727277809::0::1::::<><>::res://scripts/player.gd<>uid://cjyfs8vd0ijbr::::res://sprites/characters/player.png
+::res://scripts/::1727277845
 Global.gd::GDScript::-1::1727273549::0::1::::<>Node<>::
-npc_quest.gd::GDScript::-1::1727274332::0::1::::<>CharacterBody2D<>::
+npc_quest.gd::GDScript::-1::1727274796::0::1::::<>CharacterBody2D<>::
+npc_quest_1.gd::GDScript::-1::1727277845::0::1::::<>CharacterBody2D<>::
 player.gd::GDScript::-1::1727273656::0::1::::<>CharacterBody2D<>::
 ::res://sprites/::1727194043
-::res://sprites/characters/::1727273878
+::res://sprites/characters/::1727276074
 mouli64.png::CompressedTexture2D::2418384234509874924::1727012742::1727273878::1::::<><>::
 mouli.png::CompressedTexture2D::1430053628200173529::1727012742::1727273878::1::::<><>::
 player.png::CompressedTexture2D::5454423521361535687::1727012742::1727273380::1::::<><>::
@@ -628,6 +633,7 @@ README.txt::TextFile::-1::1727012742::0::1::::<><>::
 skeleton.png::CompressedTexture2D::2206378320954691859::1727012742::1727273380::1::::<><>::
 skeleton_swordless.png::CompressedTexture2D::6884962341513775968::1727012742::1727273380::1::::<><>::
 slime.png::CompressedTexture2D::8312138131831688619::1727012742::1727273380::1::::<><>::
+staff_to change.png::CompressedTexture2D::8429578742961692029::1727012742::1727276074::1::::<><>::
 student.png::CompressedTexture2D::7058579769276453674::1727188184::1727273380::1::::<><>::
 ::res://sprites/tilesets/::1727273378
 32x32Tileset_gardenTheme.png::CompressedTexture2D::4747116066533439885::1727041211::1727273378::1::::<><>::

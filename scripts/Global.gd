@@ -1,10 +1,9 @@
 extends Node
 
-var player_speed = 100
-var player_current_speed = player_speed
+var speed = 100
 
 func freeze_player():
-	player_current_speed = 0
+	self.speed = 0
 	
 func unfreeze_player():
-	player_current_speed = player_speed
+	self.speed = 100

@@ -18,15 +18,18 @@ config/icon="res://icon.svg"
 [autoload]
 
 Dialogic="*res://addons/dialogic/Core/DialogicGameHandler.gd"
+Global="*res://scripts/Global.gd"
 
 [dialogic]
 
 directories/dch_directory={
 "characters/moulinette": "res://dialogic/characters/moulinette.dch",
-"dialogic/characters/norminette": "res://dialogic/characters/norminette.dch"
+"dialogic/characters/norminette": "res://dialogic/characters/norminette.dch",
+"staff": "res://dialogic/characters/staff.dch"
 }
 directories/dtl_directory={
-"chapter01": "res://dialogic/timelines/chapter01.dtl"
+"chapter01": "res://dialogic/timelines/chapter01.dtl",
+"timelines/quest1": "res://dialogic/timelines/quest1.dtl"
 }
 variables={}
 layout/style_list=[]

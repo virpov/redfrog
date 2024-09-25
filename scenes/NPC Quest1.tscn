@@ -1,0 +1,36 @@
+[gd_scene load_steps=6 format=3 uid="uid://dpq1a6totd2qw"]
+
+[ext_resource type="Script" path="res://scripts/npc_quest_1.gd" id="1_pahrf"]
+[ext_resource type="Texture2D" uid="uid://dsdl6vpjyswun" path="res://sprites/characters/staff_to change.png" id="1_pnuym"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_05cnx"]
+atlas = ExtResource("1_pnuym")
+region = Rect2(0, 0, 16, 16)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_iqk5a"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_05cnx")
+}],
+"loop": true,
+"name": &"default",
+"speed": 5.0
+}]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_doeio"]
+radius = 10.0499
+
+[node name="NPC Quest1" type="CharacterBody2D"]
+script = ExtResource("1_pahrf")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+sprite_frames = SubResource("SpriteFrames_iqk5a")
+
+[node name="Area2D" type="Area2D" parent="."]
+process_mode = 3
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D"]
+shape = SubResource("CircleShape2D_doeio")
+
+[connection signal="body_entered" from="Area2D" to="." method="_on_area_2d_body_entered"]

@@ -10,18 +10,18 @@
 },
 "default_portrait": "default",
 "description": "",
-"display_name": "norminette",
+"display_name": "staff",
 "mirror": false,
 "nicknames": [""],
 "offset": Vector2(0, 0),
 "portraits": {
 "default": {
 "export_overrides": {
-"image": "\"res://dialogic/characters/norminette.png\""
+"image": "\"res://dialogic/characters/staff_to change.png\""
 },
 "mirror": false,
-"offset": Vector2(0, 0),
-"scale": 0.2,
+"offset": Vector2(0, 300),
+"scale": 1.0,
 "scene": ""
 }
 },

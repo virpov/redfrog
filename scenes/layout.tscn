@@ -1,4 +1,4 @@
-[gd_scene load_steps=47 format=3 uid="uid://kmea5omao7fr"]
+[gd_scene load_steps=48 format=3 uid="uid://kmea5omao7fr"]
 
 [ext_resource type="Texture2D" uid="uid://drmyvv72evy11" path="res://sprites/tilesets/outside_42/Tilemaps & Additive Env/Tilemap32x32_down_environment.png" id="1_4tgtm"]
 [ext_resource type="Texture2D" uid="uid://bu65151bjclnt" path="res://sprites/tilesets/newassets/pixel_cyberpunk_interior_free_1.0.1/pixel_cyberpunk_interior_free_1.0.1/pixel-cyberpunk-interior.png" id="1_v12qa"]
@@ -23,6 +23,7 @@
 [ext_resource type="Texture2D" uid="uid://cu3o7ph81yesy" path="res://sprites/tilesets/outside_42/Vegetation/minitree32x48.png" id="21_kg1p4"]
 [ext_resource type="PackedScene" uid="uid://db6oxximusddy" path="res://scenes/player.tscn" id="22_uksl2"]
 [ext_resource type="PackedScene" uid="uid://wvh23yl6cu6u" path="res://scenes/npc_quest.tscn" id="23_nbfsi"]
+[ext_resource type="PackedScene" uid="uid://dpq1a6totd2qw" path="res://scenes/NPC Quest1.tscn" id="24_3kius"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_vsy3v"]
 texture = ExtResource("1_4tgtm")
@@ -4824,3 +4825,6 @@ zoom = Vector2(3, 3)
 
 [node name="NPC quest" parent="." instance=ExtResource("23_nbfsi")]
 position = Vector2(-174, 19)
+
+[node name="NPC Quest1" parent="." instance=ExtResource("24_3kius")]
+position = Vector2(119, -86)

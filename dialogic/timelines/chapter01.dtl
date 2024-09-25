@@ -1,7 +1,7 @@
-join dialogic/characters/norminette center
+join dialogic/characters/norminette left
 dialogic/characters/norminette: Hello
-leave dialogic/characters/norminette
-join characters/moulinette center
+#leave dialogic/characters/norminette
+join characters/moulinette right
 characters/moulinette: Hii
 leave characters/moulinette
 join dialogic/characters/norminette center
