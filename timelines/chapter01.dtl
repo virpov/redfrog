@@ -1,0 +1,9 @@
+join moulinette center
+moulinette: Hello
+join norminette center
+norminette: Hii
+norminette: So, what do you say?
+- Yes, of course
+	norminette: That is great.
+- Nope, sorry.
+	norminette: Ohh alright, then.
