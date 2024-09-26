@@ -23,8 +23,10 @@ Global="*res://scripts/Global.gd"
 [dialogic]
 
 directories/dch_directory={
+"Book": "res://dialogic/characters/Book.dch",
 "Ella": "res://dialogic/characters/Ella.dch",
 "Kai": "res://dialogic/characters/Kai.dch",
+"Mr Oakley": "res://dialogic/characters/Mr Oakley.dch",
 "characters/moulinette": "res://dialogic/characters/moulinette.dch",
 "dialogic/characters/norminette": "res://dialogic/characters/norminette.dch",
 "staff": "res://dialogic/characters/staff.dch"
@@ -34,7 +36,8 @@ directories/dtl_directory={
 "quest1": "res://dialogic/timelines/quest1.dtl",
 "quest2": "res://dialogic/timelines/quest2.dtl",
 "quest3": "res://dialogic/timelines/quest3.dtl",
-"quest4": "res://dialogic/timelines/quest4.dtl"
+"quest4": "res://dialogic/timelines/quest4.dtl",
+"questLibrary": "res://dialogic/timelines/questLibrary.dtl"
 }
 variables={}
 layout/style_list=[]

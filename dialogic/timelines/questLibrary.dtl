@@ -1,0 +1,9 @@
+join "Mr Oakley" center
+"Mr Oakley": Hey, Mouli, it's good to see you.
+leave "Mr Oakley"
+join characters/moulinette center
+characters/moulinette: Hello, Mr Oakley! I am looking for a AI-generated coding book.
+leave characters/moulinette
+join "Mr Oakley" center
+"Mr Oakley": If such a book exists, you will most likely find it in this room.
+leave "Mr Oakley"
