@@ -1,7 +1,9 @@
-res://sprites/characters
-res://
-res://scenes
+res://sprites/inventary items
+res://dialogic/characters
 res://dialogic/timelines
+res://
+res://sprites/characters/stu
+res://sprites/characters
+res://scenes
 res://sprites/quests
 res://scripts
-res://dialogic/characters

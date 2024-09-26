@@ -17,7 +17,7 @@
 "portraits": {
 "USB": {
 "export_overrides": {
-"image": "\"/home/ctirapo-/Downloads/redfrog-main/sprites/inventary items/item5_USB.png\""
+"image": "\"res://sprites/inventary items/item5_USB.png\""
 },
 "mirror": false,
 "offset": Vector2(0, 0),

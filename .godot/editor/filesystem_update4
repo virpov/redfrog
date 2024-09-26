@@ -1,16 +1,14 @@
-res://dialogic/timelines/quest4.dtl
-res://dialogic/characters/staff.dch
-res://dialogic/timelines/questLibrary.dtl
+res://scenes/Quest Library.tscn
 res://dialogic/characters/Mr Oakley.dch
 res://scenes/layout.tscn
+res://scenes/Quest Cheat.tscn
+res://scenes/quest_cheat.gd
+res://scenes/Quest Evaluation.tscn
+res://scenes/quest_evaluation.gd
+res://dialogic/characters/Pisciner.dch
+res://questEvaluation.dtl
 res://scenes/player.tscn
-res://scenes/npc_quest.tscn
-res://scenes/NPC Quest 2.tscn
-res://scenes/NPC Quest 1.tscn
+res://scenes/Book_questLibrary2.tscn
+res://scripts/book_quest_library_2.gd
 res://dialogic/timelines/questLibrary2.dtl
-res://dialogic/characters/Book.dch
-res://dialogic/characters/Ella.dch
-res://dialogic/characters/norminette.dch
-res://dialogic/characters/moulinette.dch
-res://dialogic/characters/Kai.dch
-res://dialogic/characters/Disk.dch
+res://dialogic/characters/USB.dch

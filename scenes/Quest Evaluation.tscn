@@ -1,0 +1,50 @@
+[gd_scene load_steps=8 format=3 uid="uid://ic8imd7fmdjp"]
+
+[ext_resource type="Texture2D" uid="uid://li5uxiecbtvc" path="res://sprites/characters/stu/stu.png" id="1_ppxpa"]
+[ext_resource type="Script" path="res://scenes/quest_evaluation.gd" id="1_xfl7r"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_s4eee"]
+atlas = ExtResource("1_ppxpa")
+region = Rect2(144, 0, 48, 74)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_kcgbw"]
+atlas = ExtResource("1_ppxpa")
+region = Rect2(192, 0, 48, 74)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_w1n3y"]
+atlas = ExtResource("1_ppxpa")
+region = Rect2(240, 0, 48, 74)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_xpg04"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_s4eee")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_kcgbw")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_w1n3y")
+}],
+"loop": true,
+"name": &"default",
+"speed": 5.0
+}]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_8w4ha"]
+radius = 61.8142
+
+[node name="Quest Evaluation" type="CharacterBody2D"]
+script = ExtResource("1_xfl7r")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+z_index = 60
+sprite_frames = SubResource("SpriteFrames_xpg04")
+
+[node name="Area2D" type="Area2D" parent="."]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D"]
+shape = SubResource("CircleShape2D_8w4ha")
+
+[connection signal="body_entered" from="Area2D" to="." method="_on_area_2d_body_entered"]
