@@ -27,17 +27,19 @@ directories/dch_directory={
 "Ella": "res://dialogic/characters/Ella.dch",
 "Kai": "res://dialogic/characters/Kai.dch",
 "Mr Oakley": "res://dialogic/characters/Mr Oakley.dch",
+"USB": "res://dialogic/characters/USB.dch",
 "characters/moulinette": "res://dialogic/characters/moulinette.dch",
 "dialogic/characters/norminette": "res://dialogic/characters/norminette.dch",
 "staff": "res://dialogic/characters/staff.dch"
 }
 directories/dtl_directory={
-"quest0": "res://dialogic/timelines/quest0.dtl",
-"quest1": "res://dialogic/timelines/quest1.dtl",
-"quest2": "res://dialogic/timelines/quest2.dtl",
-"quest3": "res://dialogic/timelines/quest3.dtl",
-"quest4": "res://dialogic/timelines/quest4.dtl",
-"questLibrary": "res://dialogic/timelines/questLibrary.dtl"
+"questCheat": "res://dialogic/timelines/questCheat.dtl",
+"questFirstproject": "res://dialogic/timelines/questFirstproject.dtl",
+"questLibrary": "res://dialogic/timelines/questLibrary.dtl",
+"questLibrary2": "res://dialogic/timelines/questLibrary2.dtl",
+"questNadia": "res://dialogic/timelines/questNadia.dtl",
+"questNorminette": "res://dialogic/timelines/questNorminette.dtl",
+"questTeamwork": "res://dialogic/timelines/questTeamwork.dtl"
 }
 variables={}
 layout/style_list=[]

@@ -26,11 +26,12 @@ script = ExtResource("1_ki1dk")
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
 sprite_frames = SubResource("SpriteFrames_gwj36")
+autoplay = "default"
 
 [node name="Area2D" type="Area2D" parent="."]
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D"]
-position = Vector2(-3.5, -18.25)
+position = Vector2(-4, -19)
 shape = SubResource("RectangleShape2D_76qfh")
 
 [connection signal="body_entered" from="Area2D" to="." method="_on_area_2d_body_entered"]
