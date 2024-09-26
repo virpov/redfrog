@@ -1,0 +1,19 @@
+join Kai center
+Kai: Hey, Mouli, I was looking for you! I stumbled upon this glitch that lets us cheat on the exams.
+Kai: I need your skills to help me either control it or make it even better!
+leave Kai
+join characters/moulinette center
+characters/moulinette: Cheating? Isn’t that risky? What’s your plan?
+leave characters/moulinette
+join Kai center
+Kai: If we exploit it, we can totally bypass the exams! But if we don’t handle it right, it could spiral out of control!
+leave Kai
+join characters/moulinette center
+- I will help you fix it, it’s important to ensure that nobody, including us, cheats.
+	leave characters/moulinette
+	join Kai center
+	Kai: Besides being smart, you are a person of integrity. Alright, let’s do it!
+- it’s too good of an opportunity to let it slip through our fingers. Alright, let’s enhance the glitch!
+	leave characters/moulinette
+	join Kai center
+	Kai: Oh, yeah! That's exactly what I wanted to hear!

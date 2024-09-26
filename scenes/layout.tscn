@@ -4872,14 +4872,14 @@ position = Vector2(-283, 31)
 [node name="Camera2D" type="Camera2D" parent="Player"]
 zoom = Vector2(3, 3)
 
-[node name="NPC quest" parent="." instance=ExtResource("23_nbfsi")]
-position = Vector2(-90, 25)
+[node name="NPC Quest 2" parent="." instance=ExtResource("25_dm65q")]
+position = Vector2(39, 18)
 
-[node name="NPC Quest 1" parent="." instance=ExtResource("25_dm65q")]
-position = Vector2(122, -188)
-
-[node name="NPC Quest 2" parent="." instance=ExtResource("25_6qmdq")]
+[node name="NPC Quest 0" parent="." instance=ExtResource("25_6qmdq")]
 position = Vector2(-219, 30)
+
+[node name="NPC Quest 1" parent="." instance=ExtResource("23_nbfsi")]
+position = Vector2(-90, 25)
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
 z_index = 6

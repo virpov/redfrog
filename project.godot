@@ -23,18 +23,23 @@ Global="*res://scripts/Global.gd"
 [dialogic]
 
 directories/dch_directory={
+"Ella": "res://dialogic/characters/Ella.dch",
+"Kai": "res://dialogic/characters/Kai.dch",
 "characters/moulinette": "res://dialogic/characters/moulinette.dch",
 "dialogic/characters/norminette": "res://dialogic/characters/norminette.dch",
 "staff": "res://dialogic/characters/staff.dch"
 }
 directories/dtl_directory={
-"chapter01": "res://dialogic/timelines/chapter01.dtl",
-"quest 2": "res://dialogic/timelines/quest 2.dtl",
-"timelines/quest1": "res://dialogic/timelines/quest1.dtl"
+"quest0": "res://dialogic/timelines/quest0.dtl",
+"quest1": "res://dialogic/timelines/quest1.dtl",
+"quest2": "res://dialogic/timelines/quest2.dtl",
+"quest3": "res://dialogic/timelines/quest3.dtl",
+"quest4": "res://dialogic/timelines/quest4.dtl"
 }
 variables={}
 layout/style_list=[]
 layout/default_style="Default"
+glossary/default_case_sensitive=true
 
 [editor_plugins]
 

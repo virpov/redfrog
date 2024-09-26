@@ -22,10 +22,13 @@ animations = [{
 radius = 74.5453
 
 [node name="NPC Quest 1" type="CharacterBody2D"]
+z_index = 10
 script = ExtResource("1_hbl6w")
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+z_index = 10
 sprite_frames = SubResource("SpriteFrames_6w4vh")
+autoplay = "default"
 
 [node name="Area2D" type="Area2D" parent="."]
 

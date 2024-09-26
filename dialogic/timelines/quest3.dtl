@@ -1,0 +1,18 @@
+join Ella center
+Ella: Wow, you solved that problem really quickly! Are you sure you’re new here?
+leave Ella
+join characters/moulinette center
+characters/moulinette: I don’t know, it just feels... intuitive.
+leave characters/moulinette
+join Ella center
+Ella: That’s amazing! I’ve been struggling with this part. Maybe we can combine our ideas?
+leave Ella
+join characters/moulinette center
+- Sure, we can work together and present our final project as a team.
+	leave characters/moulinette
+	join Ella center
+	Ella: Great! I cannot wait to see the final outcome.
+- I’m sorry but I have other things to do. Maybe another time.
+	leave characters/moulinette
+	join Ella center
+	Ella: Oh, alright.
