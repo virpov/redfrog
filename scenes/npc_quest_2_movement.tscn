@@ -1,0 +1,32 @@
+[gd_scene load_steps=4 format=3 uid="uid://fem0va2kvyby"]
+
+[ext_resource type="PackedScene" uid="uid://dn5c8fvjre70" path="res://scenes/NPC Quest 2.tscn" id="2_osjgg"]
+
+[sub_resource type="GDScript" id="GDScript_tupx8"]
+script/source = "extends Node2D
+
+var speed = 10
+
+func _process(delta: float) -> void:
+	$Path2D/PathFollow2D.progress_ratio += speed
+"
+
+[sub_resource type="Curve2D" id="Curve2D_pab75"]
+_data = {
+"points": PackedVector2Array(0, 0, 0, 0, -1, 0, 66.4656, -19.24, -66.4656, 19.24, -141, -5, 0, 0, 0, 0, -202, -75)
+}
+point_count = 3
+
+[node name="NPC Quest2 movement" type="Node2D"]
+script = SubResource("GDScript_tupx8")
+
+[node name="Path2D" type="Path2D" parent="."]
+curve = SubResource("Curve2D_pab75")
+
+[node name="PathFollow2D" type="PathFollow2D" parent="Path2D"]
+position = Vector2(-1, 0)
+rotation = -3.10589
+loop = false
+
+[node name="NPC Quest 2" parent="Path2D/PathFollow2D" instance=ExtResource("2_osjgg")]
+script = null

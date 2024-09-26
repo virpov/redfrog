@@ -1,18 +1,19 @@
 join dialogic/characters/norminette left
-dialogic/characters/norminette: Hello
+dialogic/characters/norminette: Hello, I am Normie... And you?
 #leave dialogic/characters/norminette
 join characters/moulinette right
-characters/moulinette: Hii
+characters/moulinette: Hii... I am...
+characters/moulinette: I am...
 leave characters/moulinette
 join dialogic/characters/norminette center
-dialogic/characters/norminette: So, what do you say?
+dialogic/characters/norminette: You are new in the school, right? Would you like me to show around?
 leave dialogic/characters/norminette
 join characters/moulinette center
-- Yes, of course
+- Yes, thank you...
 	leave characters/moulinette
 	join dialogic/characters/norminette center
-	dialogic/characters/norminette: That is great.
+	dialogic/characters/norminette: Ohh alright, then... LET'S GO MY FRIEND!
 - Nope, sorry. | [=""]
 	leave characters/moulinette
 	join dialogic/characters/norminette center
-	dialogic/characters/norminette: Ohh alright, then.
+	dialogic/characters/norminette: Ok, enjoy!

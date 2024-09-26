@@ -1,5 +1,8 @@
 res://scenes/layout.tscn
+res://dialogic/timelines/quest 2.dtl
 res://scenes/player.tscn
 res://scenes/npc_quest.tscn
-res://scenes/NPC Quest1.tscn
-res://scripts/Global.gd
+res://scenes/NPC Quest 2.tscn
+res://scenes/NPC Quest 1.tscn
+res://start_scene.tscn
+res://scenes/npc_quest_1.gd

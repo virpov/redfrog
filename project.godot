@@ -29,6 +29,7 @@ directories/dch_directory={
 }
 directories/dtl_directory={
 "chapter01": "res://dialogic/timelines/chapter01.dtl",
+"quest 2": "res://dialogic/timelines/quest 2.dtl",
 "timelines/quest1": "res://dialogic/timelines/quest1.dtl"
 }
 variables={}
