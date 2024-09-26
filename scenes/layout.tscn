@@ -1,4 +1,4 @@
-[gd_scene load_steps=60 format=3 uid="uid://kmea5omao7fr"]
+[gd_scene load_steps=57 format=3 uid="uid://kmea5omao7fr"]
 
 [ext_resource type="Texture2D" uid="uid://drmyvv72evy11" path="res://sprites/tilesets/outside_42/Tilemaps & Additive Env/Tilemap32x32_down_environment.png" id="1_4tgtm"]
 [ext_resource type="Texture2D" uid="uid://bu65151bjclnt" path="res://sprites/tilesets/newassets/pixel_cyberpunk_interior_free_1.0.1/pixel_cyberpunk_interior_free_1.0.1/pixel-cyberpunk-interior.png" id="1_v12qa"]
@@ -22,15 +22,10 @@
 [ext_resource type="Texture2D" uid="uid://chjegg8ybfne0" path="res://sprites/tilesets/outside_42/Tilemaps & Additive Env/weed05.png" id="18_ceeg6"]
 [ext_resource type="Texture2D" uid="uid://cu3o7ph81yesy" path="res://sprites/tilesets/outside_42/Vegetation/minitree32x48.png" id="21_kg1p4"]
 [ext_resource type="PackedScene" uid="uid://db6oxximusddy" path="res://scenes/player.tscn" id="22_uksl2"]
-[ext_resource type="PackedScene" uid="uid://wvh23yl6cu6u" path="res://scenes/Quest Norminette.tscn" id="23_nbfsi"]
-[ext_resource type="PackedScene" uid="uid://dn5c8fvjre70" path="res://scenes/Quest Nadja.tscn" id="25_6qmdq"]
-[ext_resource type="PackedScene" uid="uid://tr0acb6dbub7" path="res://scenes/Quest First Project.tscn" id="25_dm65q"]
-[ext_resource type="PackedScene" uid="uid://boiqds60ahoae" path="res://scenes/Quest Team Work.tscn" id="26_n3qcm"]
+[ext_resource type="PackedScene" uid="uid://wvh23yl6cu6u" path="res://scenes/npc_quest.tscn" id="23_nbfsi"]
+[ext_resource type="PackedScene" uid="uid://dn5c8fvjre70" path="res://scenes/NPC Quest 2.tscn" id="25_6qmdq"]
+[ext_resource type="PackedScene" uid="uid://tr0acb6dbub7" path="res://scenes/NPC Quest 1.tscn" id="25_dm65q"]
 [ext_resource type="Texture2D" uid="uid://c7th1o28omogg" path="res://sprites/characters/student.png" id="26_q6fyh"]
-[ext_resource type="PackedScene" uid="uid://cpli38njjx66e" path="res://scenes/Book_questLibrary2.tscn" id="27_oeg42"]
-[ext_resource type="PackedScene" uid="uid://oymoryyvaxxb" path="res://scenes/Quest Library.tscn" id="27_wepfx"]
-[ext_resource type="PackedScene" uid="uid://ic8imd7fmdjp" path="res://scenes/Quest Evaluation.tscn" id="29_wekcg"]
-[ext_resource type="PackedScene" uid="uid://rnosis3ow8k" path="res://scenes/Quest Cheat.tscn" id="30_jrbxt"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_vsy3v"]
 texture = ExtResource("1_4tgtm")
@@ -4817,6 +4812,21 @@ animations = [{
 "speed": 5.0
 }]
 
+[sub_resource type="AtlasTexture" id="AtlasTexture_tqjh2"]
+atlas = ExtResource("26_q6fyh")
+region = Rect2(240, 148, 48, 74)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_no6oi"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_tqjh2")
+}],
+"loop": true,
+"name": &"default",
+"speed": 5.0
+}]
+
 [sub_resource type="AtlasTexture" id="AtlasTexture_3r3nm"]
 atlas = ExtResource("26_q6fyh")
 region = Rect2(48, 148, 48, 74)
@@ -4862,34 +4872,23 @@ position = Vector2(-283, 31)
 [node name="Camera2D" type="Camera2D" parent="Player"]
 zoom = Vector2(3, 3)
 
-[node name="Quest Nadja" parent="." instance=ExtResource("25_6qmdq")]
-position = Vector2(-221, 29)
+[node name="NPC Quest 2" parent="." instance=ExtResource("25_dm65q")]
+position = Vector2(130, -120)
 
-[node name="Quest Norminette" parent="." instance=ExtResource("23_nbfsi")]
-position = Vector2(-113, 12)
+[node name="NPC Quest 0" parent="." instance=ExtResource("25_6qmdq")]
+position = Vector2(-219, 30)
 
-[node name="Quest First Project" parent="." instance=ExtResource("25_dm65q")]
-position = Vector2(121, -200)
-
-[node name="Quest Team Work" parent="." instance=ExtResource("26_n3qcm")]
-position = Vector2(202, -176)
-
-[node name="Quest Library" parent="." instance=ExtResource("27_wepfx")]
-position = Vector2(1170, 209)
-
-[node name="Quest Library 2" parent="." instance=ExtResource("27_oeg42")]
-position = Vector2(1334, 189)
-
-[node name="Quest Evaluation" parent="." instance=ExtResource("29_wekcg")]
-position = Vector2(591, 146)
-
-[node name="Quest Cheat" parent="." instance=ExtResource("30_jrbxt")]
-position = Vector2(935, 141)
+[node name="NPC Quest 1" parent="." instance=ExtResource("23_nbfsi")]
+position = Vector2(-90, 25)
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
 z_index = 6
 position = Vector2(164, -135)
 sprite_frames = SubResource("SpriteFrames_wl0qu")
+
+[node name="AnimatedSprite2D2" type="AnimatedSprite2D" parent="."]
+position = Vector2(224, -170)
+sprite_frames = SubResource("SpriteFrames_no6oi")
 
 [node name="AnimatedSprite2D3" type="AnimatedSprite2D" parent="."]
 position = Vector2(83, -147)
