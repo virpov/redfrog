@@ -20,7 +20,7 @@
 "image": "\"res://sprites/quests/staff.png\""
 },
 "mirror": false,
-"offset": Vector2(0, 0),
+"offset": Vector2(-200, -100),
 "scale": 0.5,
 "scene": ""
 }

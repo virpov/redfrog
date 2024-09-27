@@ -11,7 +11,7 @@ config_version=5
 [application]
 
 config/name="42_SCHOOL"
-run/main_scene="res://scenes/layout.tscn"
+run/main_scene="res://scenes/main_menu.tscn"
 config/features=PackedStringArray("4.3", "Forward Plus")
 config/icon="res://icon.svg"
 
@@ -27,20 +27,25 @@ directories/dch_directory={
 "Book": "res://dialogic/characters/Book.dch",
 "Ella": "res://dialogic/characters/Ella.dch",
 "Kai": "res://dialogic/characters/Kai.dch",
-"Mr Oakley": "res://dialogic/characters/Mr Oakley.dch",
+"Mr white": "res://dialogic/characters/Mr white.dch",
+"Ms Oakley": "res://dialogic/characters/Ms Oakley.dch",
+"Pisciner": "res://dialogic/characters/Pisciner.dch",
 "USB": "res://dialogic/characters/USB.dch",
 "characters/moulinette": "res://dialogic/characters/moulinette.dch",
 "dialogic/characters/norminette": "res://dialogic/characters/norminette.dch",
+"hand": "res://dialogic/characters/hand.dch",
 "staff": "res://dialogic/characters/staff.dch"
 }
 directories/dtl_directory={
 "questCheat": "res://dialogic/timelines/questCheat.dtl",
+"questEvaluation": "res://questEvaluation.dtl",
 "questFirstproject": "res://dialogic/timelines/questFirstproject.dtl",
 "questLibrary": "res://dialogic/timelines/questLibrary.dtl",
 "questLibrary2": "res://dialogic/timelines/questLibrary2.dtl",
 "questNadia": "res://dialogic/timelines/questNadia.dtl",
 "questNorminette": "res://dialogic/timelines/questNorminette.dtl",
-"questTeamwork": "res://dialogic/timelines/questTeamwork.dtl"
+"questTeamwork": "res://dialogic/timelines/questTeamwork.dtl",
+"timelines/questEvaluation": "res://dialogic/timelines/questEvaluation.dtl"
 }
 variables={}
 layout/style_list=[]
@@ -62,7 +67,14 @@ dialogic_default_action={
 , Object(InputEventJoypadButton,"resource_local_to_scene":false,"resource_name":"","device":0,"button_index":0,"pressure":0.0,"pressed":false,"script":null)
 ]
 }
+quit={
+"deadzone": 0.5,
+"events": [Object(InputEventKey,"resource_local_to_scene":false,"resource_name":"","device":0,"window_id":0,"alt_pressed":false,"shift_pressed":false,"ctrl_pressed":false,"meta_pressed":false,"pressed":false,"keycode":0,"physical_keycode":4194305,"key_label":0,"unicode":0,"location":0,"echo":false,"script":null)
+]
+}
 
 [rendering]
 
 textures/canvas_textures/default_texture_filter=0
+textures/vram_compression/import_s3tc_bptc=true
+textures/vram_compression/import_etc2_astc=true

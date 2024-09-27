@@ -1,0 +1,64 @@
+[gd_scene load_steps=4 format=3 uid="uid://bilxin1idtf6a"]
+
+[ext_resource type="Script" path="res://scripts/main_menu.gd" id="1_24qon"]
+[ext_resource type="AudioStream" uid="uid://vkt8b8x4vqkf" path="res://music/end-game.mp3" id="2_n1kkn"]
+[ext_resource type="Texture2D" uid="uid://b82xdnv685akc" path="res://sprites/Mel Friday/mainScreen/Main41(without text).jpg" id="2_tvi6h"]
+
+[node name="Main menu" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_24qon")
+
+[node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("2_n1kkn")
+volume_db = 1.0
+autoplay = true
+
+[node name="TextureRect" type="TextureRect" parent="."]
+layout_mode = 2
+offset_top = 59.0
+offset_right = 3840.0
+offset_bottom = 2249.0
+texture = ExtResource("2_tvi6h")
+
+[node name="Camera2D" type="Camera2D" parent="TextureRect"]
+scale = Vector2(1.03338, 3.15901)
+anchor_mode = 0
+zoom = Vector2(0.3, 0.3)
+
+[node name="MarginContainer" type="MarginContainer" parent="."]
+z_index = 50
+layout_mode = 0
+offset_left = 504.0
+offset_top = 1418.0
+offset_right = 646.0
+offset_bottom = 1473.0
+
+[node name="VBoxContainer" type="VBoxContainer" parent="MarginContainer"]
+layout_mode = 2
+
+[node name="start(new_game);" type="Button" parent="MarginContainer/VBoxContainer"]
+layout_mode = 2
+theme_override_font_sizes/font_size = 80
+text = "start(new_game);"
+alignment = 0
+
+[node name="credits(redFrog);" type="Button" parent="MarginContainer/VBoxContainer"]
+layout_mode = 2
+theme_override_font_sizes/font_size = 80
+text = "credits(redFrog);"
+alignment = 0
+
+[node name="return(0);" type="Button" parent="MarginContainer/VBoxContainer"]
+layout_mode = 2
+theme_override_font_sizes/font_size = 80
+text = "return(0);"
+alignment = 0
+
+[connection signal="pressed" from="MarginContainer/VBoxContainer/start(new_game);" to="." method="_on_startnew_game_pressed"]
+[connection signal="pressed" from="MarginContainer/VBoxContainer/credits(redFrog);" to="." method="_on_creditsred_frog_pressed"]
+[connection signal="pressed" from="MarginContainer/VBoxContainer/return(0);" to="." method="_on_return_0_pressed"]

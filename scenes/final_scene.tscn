@@ -1,0 +1,24 @@
+[gd_scene load_steps=4 format=3 uid="uid://bwg3wrprqjm3g"]
+
+[ext_resource type="AudioStream" uid="uid://vkt8b8x4vqkf" path="res://music/end-game.mp3" id="1_0q7jg"]
+[ext_resource type="Script" path="res://scripts/final_scene.gd" id="1_nmo80"]
+[ext_resource type="Texture2D" uid="uid://c6gvrf1gnwh15" path="res://sprites/Mel Friday/moulicrying.png" id="2_gbrex"]
+
+[node name="Final Scene" type="Node2D"]
+script = ExtResource("1_nmo80")
+
+[node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("1_0q7jg")
+volume_db = 1.0
+autoplay = true
+
+[node name="TextureRect" type="TextureRect" parent="."]
+offset_top = 59.0
+offset_right = 3840.0
+offset_bottom = 2249.0
+texture = ExtResource("2_gbrex")
+
+[node name="Camera2D" type="Camera2D" parent="TextureRect"]
+scale = Vector2(1.03338, 3.15901)
+anchor_mode = 0
+zoom = Vector2(0.3, 0.3)

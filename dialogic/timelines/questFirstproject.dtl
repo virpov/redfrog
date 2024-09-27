@@ -1,9 +1,12 @@
-staff: Welcome! Today is your first day at 41 school.
-staff: Please, come and get your badges. 
+join staff center
+staff: Welcome! Today is your first day in 41 school.
+staff: We want to remind you that you can log in in any computer and start working on your projects.
+
+staff: Also, please, do not forget to get your badges.
 join Badge center
-staff: You can use them in the university cantines to get cheap meals.
+staff: You can use them in the university canitines to get cheap meals.
 join Ella center
-Ella: How cheap?
-staff: I think around 3.5 euros a meal.
+How cheap?
+I think around 3.5 euros a meal.
 join characters/moulinette center
 characters/moulinette: Nice!

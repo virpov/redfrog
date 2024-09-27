@@ -17,11 +17,11 @@
 "portraits": {
 "EllaStudent": {
 "export_overrides": {
-"image": "\"res://sprites/inventary items/item4_book.png\""
+"image": "\"res://sprites/quests/students/ella..png\""
 },
 "mirror": false,
-"offset": Vector2(0, 0),
-"scale": 1.0,
+"offset": Vector2(100, -85),
+"scale": 0.5,
 "scene": ""
 }
 },
