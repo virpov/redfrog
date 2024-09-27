@@ -4873,7 +4873,11 @@ position = Vector2(-283, 31)
 zoom = Vector2(3, 3)
 
 [node name="NPC Quest 2" parent="." instance=ExtResource("25_dm65q")]
+<<<<<<< HEAD
 position = Vector2(130, -120)
+=======
+position = Vector2(39, 18)
+>>>>>>> parent of 7d22260 (Every Quest triggered correctly)
 
 [node name="NPC Quest 0" parent="." instance=ExtResource("25_6qmdq")]
 position = Vector2(-219, 30)

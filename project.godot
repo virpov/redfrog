@@ -28,7 +28,6 @@ directories/dch_directory={
 "Ella": "res://dialogic/characters/Ella.dch",
 "Kai": "res://dialogic/characters/Kai.dch",
 "Mr Oakley": "res://dialogic/characters/Mr Oakley.dch",
-"Pisciner": "res://dialogic/characters/Pisciner.dch",
 "USB": "res://dialogic/characters/USB.dch",
 "characters/moulinette": "res://dialogic/characters/moulinette.dch",
 "dialogic/characters/norminette": "res://dialogic/characters/norminette.dch",
@@ -36,14 +35,12 @@ directories/dch_directory={
 }
 directories/dtl_directory={
 "questCheat": "res://dialogic/timelines/questCheat.dtl",
-"questEvaluation": "res://questEvaluation.dtl",
 "questFirstproject": "res://dialogic/timelines/questFirstproject.dtl",
 "questLibrary": "res://dialogic/timelines/questLibrary.dtl",
 "questLibrary2": "res://dialogic/timelines/questLibrary2.dtl",
 "questNadia": "res://dialogic/timelines/questNadia.dtl",
 "questNorminette": "res://dialogic/timelines/questNorminette.dtl",
-"questTeamwork": "res://dialogic/timelines/questTeamwork.dtl",
-"timelines/questEvaluation": "res://dialogic/timelines/questEvaluation.dtl"
+"questTeamwork": "res://dialogic/timelines/questTeamwork.dtl"
 }
 variables={}
 layout/style_list=[]

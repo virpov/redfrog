@@ -21,7 +21,7 @@ animations = [{
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_76qfh"]
 size = Vector2(39, 119.5)
 
-[node name="Quest Nadja" type="CharacterBody2D"]
+[node name="NPC Quest 2" type="CharacterBody2D"]
 script = ExtResource("1_ki1dk")
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
