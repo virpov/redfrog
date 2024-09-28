@@ -4868,47 +4868,104 @@ position = Vector2(-260, 30)
 [node name="Camera2D" type="Camera2D" parent="Player"]
 zoom = Vector2(3, 3)
 
-[node name="Quest Nadja" parent="." instance=ExtResource("25_6qmdq")]
+[node name="Quests" type="Node2D" parent="."]
+
+[node name="Quest Nadja" parent="Quests" instance=ExtResource("25_6qmdq")]
 position = Vector2(-221, 29)
 
-[node name="Quest Norminette" parent="." instance=ExtResource("23_nbfsi")]
+[node name="Quest Norminette" parent="Quests" instance=ExtResource("23_nbfsi")]
 position = Vector2(-113, 12)
 scale = Vector2(0.7, 0.7)
 
-[node name="Quest First Project" parent="." instance=ExtResource("25_dm65q")]
+[node name="Quest First Project" parent="Quests" instance=ExtResource("25_dm65q")]
 position = Vector2(121, -200)
 scale = Vector2(0.5, 0.5)
 
-[node name="Quest Team Work" parent="." instance=ExtResource("26_n3qcm")]
+[node name="Quest Team Work" parent="Quests" instance=ExtResource("26_n3qcm")]
 position = Vector2(172, -189)
 scale = Vector2(0.5, 0.5)
 
-[node name="Quest Library" parent="." instance=ExtResource("27_wepfx")]
+[node name="Quest Library" parent="Quests" instance=ExtResource("27_wepfx")]
 position = Vector2(1165, 189)
 scale = Vector2(0.5, 0.5)
 
-[node name="Quest Library 2" parent="." instance=ExtResource("27_oeg42")]
+[node name="Quest Library 2" parent="Quests" instance=ExtResource("27_oeg42")]
 position = Vector2(1334, 189)
 
-[node name="Quest Evaluation" parent="." instance=ExtResource("29_wekcg")]
+[node name="Quest Evaluation" parent="Quests" instance=ExtResource("29_wekcg")]
 position = Vector2(591, 146)
 scale = Vector2(0.5, 0.5)
 
-[node name="Quest Cheat" parent="." instance=ExtResource("30_jrbxt")]
+[node name="Quest Cheat" parent="Quests" instance=ExtResource("30_jrbxt")]
 position = Vector2(934, 152)
 scale = Vector2(0.5, 0.5)
 
-[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+[node name="Perimeter Limits" type="StaticBody2D" parent="."]
+
+[node name="Left Side" type="CollisionPolygon2D" parent="Perimeter Limits"]
+polygon = PackedVector2Array(-159, 363, -157, 65, -348, 66, -344, -18, -161, -22, -161, -310, -390, -308, -395, 359)
+
+[node name="Top Side" type="CollisionPolygon2D" parent="Perimeter Limits"]
+polygon = PackedVector2Array(1821, -296, 1909, -296, 1907, -671, 1314, -673, 1311, -267, 1311, -230, 780, -227, 779, -266, -173, -260, -173, -376, 1261, -379, 1258, -756, 1973, -758, 1958, -243, 1820, -246)
+
+[node name="Bottom side" type="CollisionPolygon2D" parent="Perimeter Limits"]
+polygon = PackedVector2Array(1804, -258, 1805, -83, 1677, -82, 1678, 102, 1407, 98, 1406, 441, 1051, 444, 1050, 221, 769, 219, 768, 305, -184, 303, -185, 381, 1010, 377, 1013, 503, 1437, 499, 1432, 152, 1876, 154, 1872, -260)
+
+[node name="Wall01" type="CollisionPolygon2D" parent="Perimeter Limits"]
+polygon = PackedVector2Array(101, -27, -169, -21, -172, -59, 98, -54)
+
+[node name="Wall02" type="CollisionPolygon2D" parent="Perimeter Limits"]
+polygon = PackedVector2Array(155, -56, 155, -25, 524, -27, 524, -61)
+
+[node name="Wall03" type="CollisionPolygon2D" parent="Perimeter Limits"]
+polygon = PackedVector2Array(588, -60, 588, -25, 850, -25, 850, -59)
+
+[node name="Wall04" type="CollisionPolygon2D" parent="Perimeter Limits"]
+polygon = PackedVector2Array(908, -22, 907, -62, 1043, -60, 1043, -95, 1226, -99, 1227, -64, 1060, -70, 1044, -21)
+
+[node name="Wall05" type="CollisionPolygon2D" parent="Perimeter Limits"]
+polygon = PackedVector2Array(1322, -71, 1499, -71, 1499, -110, 1323, -108)
+
+[node name="Wall06" type="CollisionPolygon2D" parent="Perimeter Limits"]
+polygon = PackedVector2Array(1569, -229, 1299, -230, 1301, -269, 1831, -270, 1830, -228, 1613, -226, 1614, -256, 1567, -257)
+
+[node name="Wall07" type="CollisionPolygon2D" parent="Perimeter Limits"]
+polygon = PackedVector2Array(1405, 111, 1234, 112, 1235, 67, 1693, 67, 1692, 112)
+
+[node name="Wall08" type="CollisionPolygon2D" parent="Perimeter Limits"]
+polygon = PackedVector2Array(1172, 78, 844, 79, 844, 122, 1173, 122)
+
+[node name="Wall09" type="CollisionPolygon2D" parent="Perimeter Limits"]
+polygon = PackedVector2Array(153, 67, 155, 123, 521, 129, 520, 66)
+
+[node name="Wall10" type="CollisionPolygon2D" parent="Perimeter Limits"]
+polygon = PackedVector2Array(91, 112, -176, 112, -176, 65, 93, 67)
+
+[node name="Wall11" type="CollisionPolygon2D" parent="Perimeter Limits"]
+polygon = PackedVector2Array(778, 124, 632, 128, 613, 102, 586, 103, 585, 68, 781, 69)
+
+[node name="Library01" type="CollisionPolygon2D" parent="Perimeter Limits"]
+polygon = PackedVector2Array(1251, 169, 1415, 169, 1414, 155, 1249, 154)
+
+[node name="Library02" type="CollisionPolygon2D" parent="Perimeter Limits"]
+polygon = PackedVector2Array(1250, 206, 1251, 220, 1375, 220, 1375, 201, 1253, 202)
+
+[node name="Library03" type="CollisionPolygon2D" parent="Perimeter Limits"]
+polygon = PackedVector2Array(1344, 263, 1248, 261, 1248, 248, 1344, 247)
+
+[node name="Static Students" type="Node2D" parent="Perimeter Limits"]
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="Perimeter Limits/Static Students"]
 z_index = 6
 position = Vector2(154, -132)
 scale = Vector2(0.5, 0.5)
 sprite_frames = SubResource("SpriteFrames_wl0qu")
 
-[node name="AnimatedSprite2D3" type="AnimatedSprite2D" parent="."]
+[node name="AnimatedSprite2D3" type="AnimatedSprite2D" parent="Perimeter Limits/Static Students"]
 position = Vector2(71, -178)
 scale = Vector2(0.446, 0.5)
 sprite_frames = SubResource("SpriteFrames_adefj")
 flip_h = true
 
-[node name="AnimatedSprite2D4" type="AnimatedSprite2D" parent="."]
+[node name="AnimatedSprite2D4" type="AnimatedSprite2D" parent="Perimeter Limits/Static Students"]
 sprite_frames = SubResource("SpriteFrames_w23g1")

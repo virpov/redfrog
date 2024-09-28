@@ -1,5 +1,4 @@
 res://scenes/layout.tscn
-res://dialogic/characters/USB.dch
 res://scenes/player.tscn
 res://scenes/Book_questLibrary2.tscn
 res://scenes/final_scene.tscn
@@ -8,3 +7,12 @@ res://scenes/Quest Norminette.tscn
 res://scenes/Quest First Project.tscn
 res://scenes/Quest Cheat.tscn
 res://scenes/Quest Library.tscn
+res://dialogic/timelines/questNorminette.dtl
+res://scenes/credits.gd
+res://scenes/Credits.tscn
+res://scripts/main_menu.gd
+res://scenes/splash_screen.gd
+res://scenes/splash_screen.tscn
+res://scripts/final_scene.gd
+res://scripts/player.gd
+res://scripts/npc_quest_1.gd

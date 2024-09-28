@@ -9,8 +9,8 @@ func _on_area_2d_body_entered(body: Node2D) -> void:
 
 
 func start_dialog():
-	$"../Player/Camera2D".zoom.x = 2
-	$"../Player/Camera2D".zoom.y = 2
+	$"../../Player/Camera2D".zoom.x = 2
+	$"../../Player/Camera2D".zoom.y = 2
 	Dialogic.timeline_ended.connect(_on_timeline_ended)
 	Dialogic.start("questFirstproject")
 	get_viewport().set_input_as_handled()

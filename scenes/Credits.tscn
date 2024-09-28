@@ -1,0 +1,53 @@
+[gd_scene load_steps=4 format=3 uid="uid://b8yibbxrwn64t"]
+
+[ext_resource type="Script" path="res://scenes/credits.gd" id="1_nqjfd"]
+[ext_resource type="AudioStream" uid="uid://suy70u3hqql7" path="res://music/SB_RAINY_DAYS/AMB_RAINY_DAY.wav" id="2_firag"]
+[ext_resource type="Texture2D" uid="uid://bl4on2ue6knxk" path="res://sprites/Mel Friday/familyphotoanimation/family pic.png" id="3_tg5hk"]
+
+[node name="Credits" type="Node2D"]
+script = ExtResource("1_nqjfd")
+
+[node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("2_firag")
+volume_db = 1.0
+autoplay = true
+
+[node name="TextureRect" type="TextureRect" parent="."]
+offset_top = 59.0
+offset_right = 3840.0
+offset_bottom = 2249.0
+texture = ExtResource("3_tg5hk")
+
+[node name="Camera2D" type="Camera2D" parent="TextureRect"]
+anchor_mode = 0
+zoom = Vector2(0.3, 0.3)
+
+[node name="MarginContainer" type="MarginContainer" parent="."]
+z_index = 50
+offset_left = 265.0
+offset_top = 285.0
+offset_right = 1273.0
+offset_bottom = 1503.0
+
+[node name="VBoxContainer" type="VBoxContainer" parent="MarginContainer"]
+layout_mode = 2
+
+[node name="back" type="Button" parent="MarginContainer/VBoxContainer"]
+layout_mode = 2
+theme_override_font_sizes/font_size = 80
+text = "RED FROG GAME STUDIOS
+Art:
+Mel
+Ines
+Develompment:
+Vir
+Cesar
+Music:
+Vlad
+Communication:
+Bianca
+
+Back to main menu"
+alignment = 0
+
+[connection signal="pressed" from="MarginContainer/VBoxContainer/back" to="." method="_on_back_pressed"]

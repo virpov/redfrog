@@ -11,8 +11,9 @@ config_version=5
 [application]
 
 config/name="42_SCHOOL"
-run/main_scene="res://scenes/main_menu.tscn"
+run/main_scene="res://scenes/splash_screen.tscn"
 config/features=PackedStringArray("4.3", "Forward Plus")
+boot_splash/show_image=false
 config/icon="res://icon.svg"
 
 [autoload]
@@ -51,6 +52,12 @@ variables={}
 layout/style_list=[]
 layout/default_style="Default"
 glossary/default_case_sensitive=true
+
+[display]
+
+window/size/mode=4
+window/size/resizable=false
+window/stretch/mode="viewport"
 
 [editor_plugins]
 
