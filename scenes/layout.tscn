@@ -1,8 +1,9 @@
-[gd_scene load_steps=61 format=3 uid="uid://kmea5omao7fr"]
+[gd_scene load_steps=62 format=3 uid="uid://kmea5omao7fr"]
 
 [ext_resource type="Texture2D" uid="uid://drmyvv72evy11" path="res://sprites/tilesets/outside_42/Tilemaps & Additive Env/Tilemap32x32_down_environment.png" id="1_4tgtm"]
 [ext_resource type="AudioStream" uid="uid://cqtrpi8ikvmtt" path="res://music/middlegame.mp3" id="1_5h4u6"]
 [ext_resource type="Texture2D" uid="uid://bu65151bjclnt" path="res://sprites/tilesets/newassets/pixel_cyberpunk_interior_free_1.0.1/pixel_cyberpunk_interior_free_1.0.1/pixel-cyberpunk-interior.png" id="1_v12qa"]
+[ext_resource type="Script" path="res://scenes/layout.gd" id="1_whw2f"]
 [ext_resource type="Texture2D" uid="uid://hiefal6oxd1r" path="res://sprites/tilesets/newassets/AxulArt´s_Basic-Top-down-interior_By_AxulArt/AxulArt´s_Basic-Top-down-interior_By_AxulArt/SUCCULENT TEXTURE PACK PNG-32.png" id="2_42akw"]
 [ext_resource type="Texture2D" uid="uid://bsptaa3laifnc" path="res://sprites/tilesets/newassets/Pixel Lands Interiors Demo/Pixel Lands Interiors Demo/interiors_demo.png" id="2_xfcdo"]
 [ext_resource type="Texture2D" uid="uid://bt2jsri5kinc4" path="res://sprites/tilesets/newassets/AxulArt´s_Basic-Top-down-interior_By_AxulArt/AxulArt´s_Basic-Top-down-interior_By_AxulArt/toilet.png" id="3_vjp6t"]
@@ -4836,6 +4837,7 @@ animations = [{
 [sub_resource type="SpriteFrames" id="SpriteFrames_w23g1"]
 
 [node name="42_SCHOOL" type="Node2D"]
+script = ExtResource("1_whw2f")
 
 [node name="AudioStreamPlayer2D" type="AudioStreamPlayer2D" parent="."]
 stream = ExtResource("1_5h4u6")

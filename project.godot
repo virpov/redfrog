@@ -10,11 +10,11 @@ config_version=5
 
 [application]
 
-config/name="42_SCHOOL"
+config/name="RED FROG GAME STUDIO"
 run/main_scene="res://scenes/splash_screen.tscn"
 config/features=PackedStringArray("4.3", "Forward Plus")
 boot_splash/show_image=false
-config/icon="res://icon.svg"
+config/icon="res://splash_screen/red_frog_logo.png"
 
 [autoload]
 
